@@ -1,0 +1,23 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "deno.ns"]
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["no-inferrable-types", "no-sparse-arrays"],
+      "exclude": [
+        "ban-types",
+        "no-cond-assign",
+        "no-control-regex",
+        "no-empty",
+        "no-empty-character-class",
+        "no-unused-labels",
+        "no-setter-return",
+        "no-unused-vars",
+        "valid-typeof"
+      ]
+    }
+  }
+}
