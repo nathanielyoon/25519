@@ -1,5 +1,5 @@
 {
-  "name": "@nyoon/25519",
+  "name": "@nyoon/curve25519",
   "version": "1.0.0",
   "description": "rfc7748 and rfc8032",
   "main": "index.js",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanielyoon/25519.git"
+    "url": "git+https://github.com/nathanielyoon/curve25519.git"
   },
   "author": "nathaniel yoon",
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/nathanielyoon/25519#readme"
+  "homepage": "https://github.com/nathanielyoon/curve25519#readme"
 }
