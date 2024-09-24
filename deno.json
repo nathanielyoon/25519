@@ -19,5 +19,8 @@
         "valid-typeof"
       ]
     }
+  },
+  "tasks": {
+    "test": "deno test -A"
   }
 }
